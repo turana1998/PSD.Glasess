@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
+.container
+{
+     max-width: 1000px;
+     margin: auto;
+}
+header
+{
+    height: 800px;
+}
+header nav 
+{
+    padding-top: 15px;
+     display: flex;
+     justify-content: space-between;
+}
+header nav ul
+{
+   display: flex;
+   /* width: 400px;*/
+
+}
+
+header nav ul a 
+{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    margin-right: 25px;
+    cursor:pointer;
+}
+#logo 
+{
+    width: 800px;
+    text-align: center;
+}
+hr{
+    height:2px;
+    color:#d6d7d9;
+}
+#nav2 ul {
+    max-width: 500px;
+    margin: auto;
+}
+#nav2 ul li a{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #212121;
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    text-align: center;
+    margin-right: 45px;
+    cursor:pointer;
+}
+
+#h_p{
+   
+margin-top: 90px;
+font-size: 60px;
+line-height: 80px;
+color: #cccccc;
+font-family: "Playfair Display";
+font-weight: 400;
+text-align: center;
+}
+#h_p2{
+    width: 570px;
+    margin: auto;
+height: 69px;
+font-size: 26px;
+letter-spacing: 3px;
+line-height: 40px;
+color: #999999;
+font-family: "Josefin Sans";
+text-align: center;
+}
+.carousel img{
+    width: 500px;
+}
+#bttn{
+    height: 20px;
+    width: 20px;
+    border-style: solid black;
+    border-radius: 50%;
+    background-color: grey;
+    margin-right: 40px;
+    
+}
+#bttn2{
+font-size: 16px;
+letter-spacing: 2px;
+color:gray;
+font-family: "Poppins";
+text-align: center;
+margin-right: 40px;
+}
+#section_1{
+    height: 600px;
+}
+#bigtd{
+    width: 750px;
+    background-color: #bcbec3;
+    height: 600px;
+    width: 960px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+#little1{
+    background-color: #a1a3a8;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+#little1_b{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #a39959;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#little2{
+    background-color: #d7d7d7;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+#little3{
+    background-color: #adafb5;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+#section_2{
+    height: 1000px;
+
+}
+#section_2 h1{
+font-size: 44px;
+line-height: 50px;
+color: #212121;
+font-family: "Josefin Sans";
+font-weight: 400;
+padding-top: 40px;
+text-align: center;
+}
+#s_2b{
+    height: 30px;
+    width:80px;
+    background-color:#d5d6d8;
+    outline: none;
+    border: none;
+    font-size: 16px;
+color: #212121;
+font-family: "Poppins";
+font-weight: 400;
+    cursor: pointer;
+}
+#s_2b2{
+    
+    height: 50px;
+    width:400px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color:white;
+    outline: none;
+    border: solid 1px #aeb0b5;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #aeb0b5;
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    cursor: pointer;
+}
+#colp{
+    font-size: 20px;
+line-height: 40px;
+margin-top: 40px;
+color: #212121;
+text-align: left;
+vertical-align: bottom;
+font-family: "Josefin Sans";
+}
+#colp2{
+    font-size: 16px;
+line-height: 20px;
+color: #aeb0b5;
+font-family: "Poppins";
+font-weight: 400;
+}
